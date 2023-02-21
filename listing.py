@@ -3,7 +3,7 @@
 import pandas as pd
 from plexapi.server import PlexServer
 
-baseurl = 'http://<your-url>'
+baseurl = 'http://<your-url>:<your-port>'
 token = '<your-token>'
 plex = PlexServer(baseurl, token)
 
